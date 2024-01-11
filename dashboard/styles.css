@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffb6c1; /* Warna pastel pink (LightCoral) */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk kontainer */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+canvas {
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk grafik */
+}
+
+.author, .about-us p, .contact-us p {
+    color: #555;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.about-us, .contact-us {
+    background-color: #f0f8ff; /* Warna biru muda (AliceBlue) */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk kontainer */
+    margin-top: 20px;
+}
